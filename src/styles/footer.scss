@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer{
+  min-height: 100%;
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  padding: 70px, 0;
+  box-sizing: border-box;
+  background-color: #101025;
+}
+
+.inner_footer{
+  display: block;
+  margin: 0 auto;
+  display: block;
+  width: 60%;
+  height: 100%;
+  padding-left: 35%;
+  padding-top: 1rem;
+  padding-bottom: 3px;
+  overflow: hidden;
+}
+
+.links{
+
+  padding: 0 3rem;
+  font-size: 1.2rem;
+  float: right;
+  overflow: hidden;
+}

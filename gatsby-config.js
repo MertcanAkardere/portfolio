@@ -1,8 +1,28 @@
+const dotenv = require('dotenv')
+
+if (process.env.NODE_ENV !== 'production') {
+  dotenv.config()
+}
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Mertcan's Portfolio`,
+    description: `Mertcan Akardere's portfolio page.`,
+    author: `@mertcanakardere`,
+    menuLinks:[
+      {
+        name: 'Home',
+        link: '/'
+      },
+      {
+        name: 'About',
+        link: '/about'
+      },
+      {
+        name: 'CV',
+        link: '/cv'
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,6 +34,19 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    {
+        resolve: 'gatsby-transformer-remark',
+        options: {
+            plugins: [
+                {
+                  resolve: `gatsby-remark-images-contentful`,
+                  options: {
+                    maxWidth: 1500,
+                  }
+                }
+            ]
+        }
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -30,5 +63,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    'gatsby-plugin-sass'
   ],
 }
