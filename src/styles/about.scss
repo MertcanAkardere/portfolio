@@ -1,5 +1,13 @@
 /* Reset provided by https://github.com/gatsbyjs/gatsby-starter-blog via MIT license */
 
+main {
+  position: relative;
+  min-height: 70vh;
+}
+
+
+
+
 .sidenav {
   width: 150px;
   position: fixed;
@@ -474,14 +482,14 @@ pre {
 table {
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 3rem;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 2.45rem;
   font-size: 1rem;
-  line-height: 1.45rem;
+  line-height: 2.45rem;
   border-collapse: collapse;
   width: 100%;
 }

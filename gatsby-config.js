@@ -21,6 +21,10 @@ module.exports = {
       {
         name: 'CV',
         link: '/cv'
+      },
+      {
+        name: 'Contact',
+        link: '/contact'
       }
     ]
   },

@@ -7,7 +7,7 @@ const OperatorProjectPage = () => (
 <Layout>
   <SEO title="Leap Motion Operator" />
     <h1>Leap Motion Operator</h1>
-    <h5>June 6th 2019</h5>
+    <h5>June 6th 2018</h5>
     <p></p>
     <img src="https://res.cloudinary.com/chiv/image/upload/v1570370586/projects/operator/splash_ngl6ip.jpg" alt="splash"></img>
     <h3>Aim of the Project</h3>

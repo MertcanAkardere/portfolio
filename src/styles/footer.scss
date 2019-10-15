@@ -5,14 +5,16 @@
   text-decoration: none;
 }
 
-.footer{
-  min-height: 100%;
-  width: 100vw;
+footer{
+  position: absolute;
+  min-height: 5%;
+  width: 100%;
   display: block;
   overflow: hidden;
-  padding: 70px, 0;
+  padding: 0, 0;
   box-sizing: border-box;
   background-color: #101025;
+  margin-top: 2rem;
 }
 
 .inner_footer{
@@ -23,12 +25,42 @@
   height: 100%;
   padding-left: 35%;
   padding-top: 1rem;
-  padding-bottom: 3px;
+  padding-bottom: 1px;
+  overflow: hidden;
+}
+
+
+.navigation{
+  float: right;
+  height: 100%;
+  overflow: hidden;
+}
+
+.navigation li{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 10px;
+  overflow: hidden;
+}
+
+.navigation li:last-child{
+  padding-right: 0;
+  overflow: hidden;
+}
+
+.navigation li a{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-size: 1rem;
   overflow: hidden;
 }
 
 .links{
-
+  display: "flex";
+  flex: 1;
   padding: 0 3rem;
   font-size: 1.2rem;
   float: right;

@@ -11,7 +11,7 @@ const IUIProjectPage = () => (
     <h5>June 5th 2019</h5>
     <p></p>
     <h4>Promo Video with Instructions:</h4>
-    <iframe width="640" height="360" src="https://www.youtube.com/embed/ossObkjP-cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/ossObkjP-cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
     <p></p>
     <h3>Aim of the Project</h3>
     <p>This project aim to provide new tools to level design, to bring designer's vision into reality by allowing to design from the player's perspective. These tools are designed to be intuitive and enabling instead of obstructing the creative process like Unity complex UI. There are also more complex commands implemented to increase the tools' efficiency and make experimenting during the design easier. </p>

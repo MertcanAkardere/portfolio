@@ -1,11 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
 
 .header{
   width: 100%;
   height: 80px;
   display: block;
   background-color: #101025;
-
+  font-family: Domine;
 }
 
 .inner_header{
@@ -28,17 +28,22 @@
   display: table-cell;
   vertical-align: middle;
 
+  font-family: Domine;
   font-size: 2rem;
-  font-weight: 500;
-  font-style: italic;
-  letter-spacing: 0.2rem;
+  font-weight: BOLDER;
   color: #22EEFF
 }
 
 .logo_container h1 span{
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: BOLD;
   color: #11CCDD
+}
+
+@media screen and (max-width: 1050px) {
+  h1 span {
+    display: none;
+  }
 }
 
 .navigation{
@@ -62,11 +67,10 @@
   vertical-align: middle;
   height: 100%;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .nav_flex{
-  background-color: green;
   display: "flex";
   flex: 1;
 }

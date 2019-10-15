@@ -1,26 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
 
-.post {
-    margin: 1rem 0;
 
-    a {
-        background: #f4f4f4;
-        color: #000000;
-        display: block;
-        padding: 1rem;
-        text-decoration: none;
-    }
+img {
+  border-radius: 15px 15px;
+  padding: 10px;
+  margin-bottom:: 30px;
+}
 
-    a:hover {
-        background: #e4e4e4;
-    }
+h1 {
+  font-family: Domine;
+  font-size: 2.8rem;
+  font-weight: BOLDER;
+  text-align: center;
+  margin: 20px;
+}
 
-    h2 {
-        margin-bottom: 0;
-    }
+p {
+  font-style: Roboto;
+  font-size: 1rem;
+  text-align: justify;
+}
 
-    p {
-        color: #777777;
-        font-size: .8rem;
-        font-style: normal;
-    }
+
+
+
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7); /* Black see-through */
+  border-radius: 15px;
+  color: #a1a1a1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-family: Domine;
+  font-size: 1rem;
+  padding: 10px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.card:hover .overlay {
+  opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .overlay {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    position: static;
+    top: auto;
+    left: auto
+  }
+}
+
+/* unvisited link */
+a:link {
+ color: black;
+ font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+ color: black;
+ font-weight: bold;
+}
+
+/* mouse over link */
+a:hover {
+ color: blue;
+}
+
+/* selected link */
+a:active {
+ color: cyan;
 }

@@ -10,7 +10,7 @@ const Header = ({ siteTitle, menuLinks }) => (
   <div class="header">
     <div class="inner_header">
       <div class="logo_container">
-        <h1>Mertcan <span>Akardere</span></h1>
+        <h1>MERTCAN <span>AKARDERE</span></h1>
       </div>
 
 
