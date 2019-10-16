@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaPhoneSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
 const ContactPage = () => {
@@ -19,6 +19,10 @@ const ContactPage = () => {
            <tr>
              <td><MdEmail /> E-mail</td>
              <td><a href="mailto:makardere@ku.edu.tr" target="_top">makardere@ku.edu.tr</a></td>
+           </tr>
+           <tr>
+             <td><FaPhoneSquare /> Phone</td>
+             <td><a href="tel:+90-538-717-7795">+90(538)-717-7795</a></td>
            </tr>
            <tr>
              <td><FaGithub /> GitHub</td>
