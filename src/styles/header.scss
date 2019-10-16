@@ -41,7 +41,12 @@
 }
 
 @media screen and (max-width: 1050px) {
-  h1 span {
+  h1 span  {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .logo_container  {
     display: none;
   }
 }
@@ -55,7 +60,7 @@
   height: 100%;
   display: table;
   float: left;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 
 .navigation li:last-child{
