@@ -33,7 +33,7 @@ const OperatorProjectPage = () => (
     <img src="https://res.cloudinary.com/chiv/image/upload/v1570370595/projects/operator/poster_jje9lt.jpg" alt="poster"></img>
     <hr></hr>
     <h3>Conclusion</h3>
-    <p>Due to experience difference and quicker controls, the classic methods performed better than the movement sets. Yet the difference was no great, indicating that the effectiveness of the movement sets was passable.</p>
+    <p>Due to experience difference and quicker controls, the classic methods performed better than the movement sets. Yet the difference was negligible, indicating that the effectiveness of the movement sets was passable.</p>
     <p>  Despite being intimidating at first due to its unfamiliar design, using Leap Motion was being learnt at a considerable pace, suggesting its decent intuitiveness.</p>
     <p>  Even though there were countermeasures for the inaccuracies that may occur with Leap Motion were implemented, they were not enough to get a solid input which reduced effectiveness, increased frustration and confusion among new users that did not know how to deal with the issues and increased the chance of accidents. Despite being usable in virtual world with reset button, this would not be consistent enough to use an unmanned vehicle in real world.</p>
     <p></p>

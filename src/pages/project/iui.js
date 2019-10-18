@@ -14,8 +14,8 @@ const IUIProjectPage = () => (
     <iframe width="100%" height="500" src="https://www.youtube.com/embed/ossObkjP-cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
     <p></p>
     <h3>Aim of the Project</h3>
-    <p>This project aim to provide new tools to level design, to bring designer's vision into reality by allowing to design from the player's perspective. These tools are designed to be intuitive and enabling instead of obstructing the creative process like Unity complex UI. There are also more complex commands implemented to increase the tools' efficiency and make experimenting during the design easier. </p>
-    <p>This project introduces a new multimodal approach to design level in Unity with speech commands and hand gestures. Speech commands to create and edit objects can be given with a natural language, and objects or locations can be picked by pointing with finger. Gamepad can be used to navigate the camera, select and move the objects.</p>
+    <p>This project aims to provide new tools to level design, to bring the designer's vision into reality by allowing to design from the player's perspective. These tools are designed to be intuitive and enabling instead of obstructing the creative process like Unity complex UI. There are also more complex commands implemented to increase the tools' efficiency and make experimenting during the design easier. </p>
+    <p>This project introduces a new multimodal approach to design level in Unity with speech commands and hand gestures. Speech commands to create and edit objects can be given with a natural language, and objects or locations can be selected by pointing with a finger. Gamepad can be used to navigate the camera, select and move the objects.</p>
     <img src="https://res.cloudinary.com/chiv/image/upload/v1570201584/projects/iui/Slide3_jaltcb.jpg" alt="slide3" ></img>
     <hr></hr>
     <h3>How to use it</h3>
@@ -39,7 +39,7 @@ const IUIProjectPage = () => (
     <p>Materials use a similar dictionary to be extendible and customizable.</p>
     <hr></hr>
     <h3>Conclusion:</h3>
-    <p>This intelligent user interface was promising as it did provide most of the necessary tools of level design, was intutive, and fun to use. It required some more functionality to be feature-complete. But it did perform well compared to the classic method by taking shorter time and being slightly less precise. Details are in the report file.</p>
+    <p>This intelligent user interface was promising as it did provide most of the necessary tools of level design in a similar effectiveness, also it was intutive, and fun to use. It required some more functionality to be feature-complete. But it did perform well compared to the classic method by taking shorter time and being slightly less precise. Details are in the report file.</p>
     <h5>Report: <a href="https://res.cloudinary.com/chiv/image/upload/v1570523757/pdfs/Level_Design_IUI_Report_tbesnk.pdf"  target="_blank">Report (PDF)</a>.</h5>
     </post>
     <p></p>
