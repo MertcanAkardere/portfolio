@@ -23,6 +23,10 @@ module.exports = {
         link: '/cv'
       },
       {
+        name: 'Sample',
+        link: '/code'
+      },
+      {
         name: 'Contact',
         link: '/contact'
       }
@@ -47,7 +51,43 @@ module.exports = {
                   options: {
                     maxWidth: 1500,
                   }
+                },
+                {
+          resolve: `gatsby-remark-prismjs`,
+          options: {
+            classPrefix: "language-cs",
+            inlineCodeMarker: null,
+            aliases: {},
+            showLineNumbers: false,
+            noInlineHighlight: false,
+            languageExtensions: [
+              {
+                language: "superscript",
+                extend: "javascript",
+                definition: {
+                  superscript_types: /(SuperType)/,
+                },
+                insertBefore: {
+                  function: {
+                    superscript_keywords: /(superif|superelse)/,
+                  },
+                },
+              },
+            ],
+            prompt: {
+              user: "root",
+              host: "localhost",
+              global: false,
+            },
+          },
+        },
+                {
+                    resolve: "gatsby-remark-embed-gist",
+                    options: {
+                      username: 'MertcanAkardere',
+                      includeDefaultCss: true
                 }
+              }
             ]
         }
     },
