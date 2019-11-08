@@ -8,7 +8,7 @@ const AboutPage = () => (
 <Layout>
   <SEO title="About" />
     <h1>About Mertcan Akardere</h1>
-    <p>Mertcan is a computer engineer, experienced in database management, programming and game development. Passionate to transform his designs into reality in the best way possible, he attended one of the best high school and university in Turkey. His <a href="https://res.cloudinary.com/chiv/image/upload/v1572021808/pdfs/MertcanAkardere_CV_sz8fjb.pdf"  target="_blank">CV is available here</a>.</p>
+    <p>Mertcan is a computer engineer, experienced in database management, programming and game development. Passionate to transform his designs into reality in the best way possible, he attended one of the best high school and university in Turkey. His <a href="https://res.cloudinary.com/chiv/image/upload/v1573231409/pdfs/CV16_eifv4y.pdf"  target="_blank">CV is available here</a>.</p>
     <p>For his final project in computer engineering, he combined his interest in trying new technologies and Unity development by making a project to control a vehicle with hand movements using Leap Motion and showing it on a VR headset.Project page is <Link to="/project/operator/">here</Link>.</p>
     <p>For his intelligent user interfaces course, he developed a tool to design levels from a player's perspective using speech commands (NLP) and hand gestures. This provided extensible list of game objects being placable or editable with natural speech and pointing at a location or an object. Project page is <Link to="/project/iui/">here</Link>.</p>
     <hr></hr>
